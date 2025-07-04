@@ -1,19 +1,27 @@
-import SectionTitle from "@/components/components/SectionTitle";
+import { Hero } from "@/components/components/Hero";
+import ItemCard from "@/components/components/ItemCard";
+import SelectBook from "@/components/components/SelectBook";
 
 const Home = () => {
   return (
     <div>
       {/* carosol */}
+      <Hero />
 
       {/* discover your next book  */}
-      <SectionTitle
-        title="Discover Your Next Book"
-        details="Descover your best books. this is the best books.Descover your best
-        books. this is the best books. Descover your best books. this is the
-        best books.Descover your best books. this is the best books."
-      />
+      <SelectBook />
 
       {/* getin touch */}
+      <div className="div w-11/12 mx-auto">
+        <div className="div grid gap-4 grid-cols-5">
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+          <ItemCard />
+        </div>
+      </div>
 
       {/* book ganer */}
 
