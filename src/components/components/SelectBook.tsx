@@ -29,7 +29,7 @@ const SelectBook = () => {
         </div>
       </div>
       <div className="button">
-        <DiscoverMoreBooks />
+        <DiscoverMoreBooks text="Discover More Books" link="all-books" />
       </div>
     </div>
   );
